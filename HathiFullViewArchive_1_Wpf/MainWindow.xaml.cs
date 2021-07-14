@@ -13,7 +13,6 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Linq;
 using System.Threading;
-using System.Net.Http;
 using System.Configuration;
 
 namespace HathiFullViewArchive_1_Wpf
@@ -63,10 +62,12 @@ namespace HathiFullViewArchive_1_Wpf
             {
                 tokenSource.Cancel();
                 ListRow.Height = 0;
+                ListRow.Margin = new Thickness(0, 0, 0, 0);
                 StartDownloadBtn.Content = "继续下载";
             }
             else { 
                 ListRow.Height = 400;
+                ListRow.Margin = new Thickness(0, 0, 0, 10);
                 pathSaveBase = Path.GetDirectoryName(PathTextBox.Text).Replace(@"\", "\\");
                 tempFolder = Path.GetFileNameWithoutExtension(PathTextBox.Text) + "_temp";
                 tokenSource = new CancellationTokenSource();
@@ -123,8 +124,12 @@ namespace HathiFullViewArchive_1_Wpf
             
                 await Task.WhenAll(tasks.GetRange(del * iter, iter == n_iter ? length % del : del));
                 //StatusTextBlock.Text = "已下好10个文件数：" + (length - GetFileIdList(pageRangeList, pathSaveBase + "\\" + tempFolder).Count) + "，歇5秒钟";
-                StatusTextBlock.Text = "已下好"+ del * iter + "个文件，歇5秒钟";
-                await Task.Delay(5000);
+                if (iter != n_iter)
+                {
+                    StatusTextBlock.Text = "已下了" + del * (iter + 1) + "个文件，让Hathi狐务器休息5秒钟...";
+                    await Task.Delay(5000);
+                    StatusTextBlock.Text = "接着向Hathi狐务器请求文件...";
+                }
                 iter++;
             }
             
@@ -132,6 +137,7 @@ namespace HathiFullViewArchive_1_Wpf
             if (GetFileIdList(pageRangeList, pathSaveBase + "\\" + tempFolder).Count==0)
             {
                 ListRow.Height = 0;
+                ListRow.Margin = new Thickness(0,0,0,0);
                 StatusTextBlock.Text = "全部完成";
                 MergePdf(pageRangeList, PathTextBox.Text);
                 //StartDownloadBtn.IsEnabled = true;
@@ -140,6 +146,7 @@ namespace HathiFullViewArchive_1_Wpf
             else
             {
                 ListRow.Height = 0;
+                ListRow.Margin = new Thickness(0, 0, 0, 0);
                 StatusTextBlock.Text = "处理结束，部分页面需要重新下载，点击“继续下载”";
                 //StartDownloadBtn.IsEnabled = true;
                 StartDownloadBtn.Content = "继续下载";
