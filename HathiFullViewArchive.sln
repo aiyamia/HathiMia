@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HathiFullViewArchive_1_Wpf", "HathiFullViewArchive_1_Wpf\HathiFullViewArchive_1_Wpf.csproj", "{CB604AD8-57B2-41FC-99F1-C8BEC87780CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB604AD8-57B2-41FC-99F1-C8BEC87780CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB604AD8-57B2-41FC-99F1-C8BEC87780CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB604AD8-57B2-41FC-99F1-C8BEC87780CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB604AD8-57B2-41FC-99F1-C8BEC87780CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA0576A5-87AC-4E28-BF60-0C7739601FF6}
+	EndGlobalSection
+EndGlobal
