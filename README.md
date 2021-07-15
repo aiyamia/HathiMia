@@ -12,14 +12,14 @@
 
 **注意：本软件在墙内可能使用体验不佳，欢迎积极测试反馈提建议。**
 
-众所周知，HathiTrust(https://www.hathitrust.org/)上有很多开放阅读的优秀书籍，但其中有很多书籍官方未提供一键式全本下载，每次只能下载一页。
+众所周知，HathiTrust (https://www.hathitrust.org/) 上有很多开放阅读的优秀书籍，但其中有很多书籍官方未提供一键式全本下载，每次只能下载一页。
 
 仅仅是在线阅读，无法满足我们在阅读文献过程中的许多个性化需求，包括但不限于：
 
 - 标注，并且不希望被存储在服务器上；
 - 无网络时的阅读。
 
-因此，对于这些内容开放的书籍，我([aiyamia](https://github.com/aiyamia))制作了这个下载工具，方便需要全本pdf文件的读者。
+因此，对于这些内容开放的书籍，我 ([aiyamia](https://github.com/aiyamia)) 制作了这个下载工具，方便需要全本pdf文件的读者。
 
 由于能力水平所限，目前功能有限，部分功能可能还有bug，希望能得到大佬们的pull request。
 
@@ -28,22 +28,22 @@
 ## 我的心里话
 
 1. 此作品的主要功能仰赖于HathiTrust官方对于许多书籍的开放，我们应当始终对HathiTrust官方保持一颗感恩的心；
-2. 原作者([aiyamia](https://github.com/aiyamia))希望此作品的功能被个人或小团体用于正常的学术/求知用途；
-3. 原作者([aiyamia](https://github.com/aiyamia))不希望看到有人/团体通过此作品大规模下载、囤积资源，不论是否出于要构建“个人数据库/图书馆”的目的。因为这样的行为：一是盲目下载会造成大量的存储资源浪费；二是人的贪欲容易使得积累过多自己并不会真正使用的资源；三是会增加HathiTrust服务器的负担。出于第一点，我们感恩HathiTrust官方的一种方式就是不去滥用他给我们的能力。
-4. 此作品如果疑似会侵犯您/您的组织的正当权益，您可以通过任何途径联系我，我([aiyamia](https://github.com/aiyamia))会在第一时间进行沟通和处理。
+2. 原作者 ([aiyamia](https://github.com/aiyamia)) 希望此作品的功能被个人或小团体用于正常的学术/求知用途；
+3. 原作者 ([aiyamia](https://github.com/aiyamia)) 不希望看到有人/团体通过此作品大规模下载、囤积资源，不论是否出于要构建“个人数据库/图书馆”的目的。因为这样的行为：一是盲目下载会造成大量的存储资源浪费；二是人的贪欲容易使得积累过多自己并不会真正使用的资源；三是会增加HathiTrust服务器的负担。出于第一点，我们感恩HathiTrust官方的一种方式就是不去滥用他给我们的能力。
+4. 此作品如果疑似会侵犯您/您的组织的正当权益，您可以通过任何途径联系我，我 ([aiyamia](https://github.com/aiyamia)) 会在第一时间进行沟通和处理。
 
 
 
 ## 安装
 
-1. 从这里（https://github.com/aiyamia/HathiMia/releases/latest）下载最新版本的`HathiMia.rar`的压缩包；
+1. 从这里 (https://github.com/aiyamia/HathiMia/releases/latest) 下载最新版本的`HathiMia.rar`的压缩包；
 2. 使用解压软件将其解压至你希望的路径。
 
 
 
 ## 开始使用
 
-打开HathiTrust网站：https://www.hathitrust.org/，如下图选上`Full-text`和`Full view only`，然后输入关键词搜索你想要的书籍。
+打开HathiTrust网站：https://www.hathitrust.org/ ，如下图选上`Full-text`和`Full view only`，然后输入关键词搜索你想要的书籍。
 
 ![image-20210715191822751](README.assets/image-20210715191822751.png)
 

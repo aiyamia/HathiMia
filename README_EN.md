@@ -14,15 +14,15 @@ Why sometimes we prefer downloading yet reading online? Because with a local fil
 - Read offline;
 - etc.
 
-Thus, I ([aiyamia](https://github.com/aiyamia)) made this tool for people who need to download the whole book in pdf conveniently. And for my limited experience on C# programming, the functionality is limited and even buggy sometimes. Your pull request and issue is welcome. I am willing to know the issues you encounter when using this app.
+Thus, I (aka [aiyamia](https://github.com/aiyamia)) made this tool for people who need to download the whole book in pdf conveniently. And for my limited experience on C# programming, the functionality is limited and even buggy sometimes. Your pull request and issue is welcome. I am willing to know the issues you encounter when using this app.
 
 
 
 ## I want to tell you
 
 1. The main functionality of this work owe to the opening of the contents by HathiTrust, for which we are supposed to keep grateful to HathiTrust.
-2. The original author of HathiMia([aiyamia](https://github.com/aiyamia)) wish this app to be used by individual or small group for normal academic/knowledge building use.
-3. The original author of HathiMia([aiyamia](https://github.com/aiyamia)) does **not** want this app to be used by any individual or group for massive downloading and resource hoarding, no matter whether it is for building individual knowledge database/library. Now that we are grateful to HathTrust, we need to do our best to reduce the server pressure of it. "**Respect, not just take advantage**" is my ethics.
+2. The original author of *HathiMia* (aka [aiyamia](https://github.com/aiyamia)) wish this app to be used by individual or small group for normal academic/knowledge building use.
+3. The original author of *HathiMia* (aka [aiyamia](https://github.com/aiyamia)) does **not** want this app to be used by any individual or group for massive downloading and resource hoarding, no matter whether it is for building individual knowledge database/library. Now that we are grateful to HathTrust, we need to do our best to reduce the server pressure of it. "**Respect, not just take advantage**" is my ethics.
 4. If this work is suspected of infringing on the legitimate rights and interests of you/your organization, you can contact me through any means, and I will communicate and deal with it as soon as possible.
 
 
@@ -105,6 +105,6 @@ I will be grateful for your help on this issue.
 ## Statement
 
 1. The main functionality of this work owe to the opening of the contents by HathiTrust, for which we are supposed to keep grateful to HathiTrust.
-2. The original author of HathiMia([aiyamia](https://github.com/aiyamia)) wish this app to be used by individual or small group for normal academic/knowledge building use.
-3. The original author of HathiMia([aiyamia](https://github.com/aiyamia)) does **not** want this app to be used by any individual or group for massive downloading and resource hoarding, no matter whether it is for building individual knowledge database/library. Now that we are grateful to HathTrust, we need to do our best to reduce the server pressure of it. "**Respect, not just take advantage**" is my ethics.
+2. The original author of *HathiMia* (aka [aiyamia](https://github.com/aiyamia)) wish this app to be used by individual or small group for normal academic/knowledge building use.
+3. The original author of *HathiMia* (aka [aiyamia](https://github.com/aiyamia)) does **not** want this app to be used by any individual or group for massive downloading and resource hoarding, no matter whether it is for building individual knowledge database/library. Now that we are grateful to HathTrust, we need to do our best to reduce the server pressure of it. "**Respect, not just take advantage**" is my ethics.
 4. If this work is suspected of infringing on the legitimate rights and interests of you/your organization, you can contact me through any means, and I will communicate and deal with it as soon as possible.
